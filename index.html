@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passenger Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Passenger Counter</h1>
+        <div class="counter" id="passengerCount">0</div>
+        <div class="buttons">
+            <button class="btn btn-increment" onclick="addPassenger()">Add Passenger</button>
+            <button class="btn btn-save" onclick="saveCount()">Save Count</button>
+        </div>
+        <div class="entries">
+            <div class="entries-title">Previous Entries:</div>
+            <div class="entries-list" id="savedEntries"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
